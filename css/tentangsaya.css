@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(175, 89, 80);
+}
+
+.narasi {
+    position: absolute;
+    background-color: rgb(87, 152, 209);
+    margin: 10em 20em;
+    border: 2px solid rgb(87, 152, 209);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    border-radius: 2em;
+    width: 55%;
+    height: 30%;
+    text-align: center;
+}
+
+.navbar {
+    align-content: center;
+    position: absolute;
+    left: 38.5em;
+    top: 5em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    color: rgb(202, 55, 104);
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    border: 2px solid #6b0c21;
+    background-color: darkslategrey;
+    border-radius: 10px;
+    padding: 6px;
+    transition: 0.2s;
+}
+
+li a:hover {
+    color: rgb(211, 211, 211);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    border: 2px solid #6b0c21;
+    background-color: darkslategrey;
+    border-radius: 10px;
+    padding: 6px;
+}
